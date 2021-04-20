@@ -1,0 +1,15 @@
+.footer {
+    height: 5%;
+    justify-content: center;
+
+    color: white;
+    background-color: #4b4646;
+
+    position: fixed;
+
+    bottom: 0;
+}
+
+span {
+    font-size: 0.8rem;
+}
