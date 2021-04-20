@@ -2,7 +2,7 @@
     <mat-sidenav mode="side" opened>
         <mat-nav-list>
             <a mat-list-item>
-                <i class="material-icons">home</i>
+                <i routerLink="" class="material-icons">home</i>
                 Home
             </a>
             <a mat-list-item>
@@ -12,6 +12,8 @@
         </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content>
-        
+        <router-outlet>
+            
+        </router-outlet>
     </mat-sidenav-content>
 </mat-sidenav-container>
