@@ -1,0 +1,26 @@
+.content {
+    width: 90%;
+    margin: 1.4rem auto auto auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.table {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.table tr th {
+    align-items: center;
+    justify-content: center;
+}
