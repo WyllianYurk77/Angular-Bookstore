@@ -1,6 +1,6 @@
 .content {
     width: 90%;
-    margin: 1.4rem auto auto auto;
+    margin: 1rem auto auto auto;
 }
 
 .title {
@@ -14,13 +14,66 @@
     color: black;
 }
 
+button {
+    margin-bottom: 1rem;
+    background-color: gray;
+    color: white;
+}
+
 .table {
     width: 100%;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    padding: 0;
 }
 
-.table tr th {
-    align-items: center;
-    justify-content: center;
+.id-container {
+    width: 3rem;
+    padding:0;
+    text-align: center;
+}
+
+.name-container {
+    width:15rem;
+    padding:0;
+    text-align: center;
+}
+
+.desc-container {
+    width: 15rem;
+    padding:0;
+    text-align: center;
+}
+
+.books-container {
+    width: 5rem;
+    padding:0;
+    text-align: center;
+}
+
+.act-container {
+    width: 5rem;
+    padding:0;
+    text-align: center;
+}
+
+.book {
+    color: gray;
+    margin-left: 0.3rem;
+}
+
+.edit {
+    color: gray;
+    margin-right: 0.5rem;
+}
+
+.delete {
+    color: gray;
+    margin-left: 0.5rem;
+}
+
+.actions-header {
+    width: 5rem;
+    
 }

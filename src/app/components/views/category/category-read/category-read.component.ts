@@ -11,7 +11,7 @@ export class CategoryReadComponent implements OnInit {
 
   categories: Category[] = []
 
-  displayedColumns: string[] = ['id', 'name', 'description', 'actions'];
+  displayedColumns: string[] = ['id', 'name', 'description', 'books', 'actions'];
 
   constructor(private service: CategoryService) { }
 

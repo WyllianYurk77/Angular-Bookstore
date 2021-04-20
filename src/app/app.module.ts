@@ -15,6 +15,7 @@ import { HeaderComponent } from './components/template/header/header.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { CategoryReadComponent } from './components/views/category/category-read/category-read.component';
 import { HomeComponent } from './components/views/home/home.component';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -37,7 +38,8 @@ import { HomeComponent } from './components/views/home/home.component';
     MatIconModule,
     MatCardModule,
     MatTableModule,
-    HttpClientModule
+    HttpClientModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
