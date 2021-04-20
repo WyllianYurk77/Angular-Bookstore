@@ -16,6 +16,7 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { CategoryReadComponent } from './components/views/category/category-read/category-read.component';
 import { HomeComponent } from './components/views/home/home.component';
 import {MatButtonModule} from '@angular/material/button';
+import { CategoryCreateComponent } from './components/views/category/category-create/category-create.component';
 
 
 
@@ -26,7 +27,8 @@ import {MatButtonModule} from '@angular/material/button';
     FooterComponent,
     NavComponent,
     HomeComponent,
-    CategoryReadComponent
+    CategoryReadComponent,
+    CategoryCreateComponent
   ],
   imports: [
     BrowserModule,
